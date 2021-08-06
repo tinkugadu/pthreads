@@ -67,6 +67,10 @@
 #define PTW32_PROGCTR(Context)  ((Context).Pc)
 #endif
 
+#if defined(_ARM64_) || defined(ARM64)
+#define PTW32_PROGCTR(Context)  ((Context).Pc)
+#endif
+
 #if !defined(PTW32_PROGCTR)
 #error Module contains CPU-specific code; modify and recompile.
 #endif

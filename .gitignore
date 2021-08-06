@@ -5,3 +5,4 @@ pthread*.ilk
 pthread*.lib
 pthread*.pdb
 *.res
+*.log

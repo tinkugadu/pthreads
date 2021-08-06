@@ -1,0 +1,32 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(504,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(505,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  attr.c
+  barrier.c
+  cancel.c
+  cleanup.c
+  condvar.c
+  create.c
+  dll.c
+  exit.c
+  fork.c
+  global.c
+  misc.c
+  mutex.c
+  private.c
+  rwlock.c
+  sched.c
+  semaphore.c
+  spin.c
+  sync.c
+  tsd.c
+  nonportable.c
+E:\VSProjects\pthreads\pthread_win32_attach_detach_np.c(84,38): warning C4133: 'function': incompatible types - from 'TCHAR [1024]' to 'char *'
+  Generating Code...
+  Compiling...
+  errno.c
+  signal.c
+  autostatic.c
+  Generating Code...
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1371,5): warning MSB8012: TargetName(lib\libpthread) does not match the Linker's OutputFile property value (libpthread). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     Creating library E:\VSProjects\pthreads\COPKG\..\ARM64\Debug\lib\libpthread.lib and object E:\VSProjects\pthreads\COPKG\..\ARM64\Debug\lib\libpthread.exp
+  pthreads.vcxproj -> E:\VSProjects\pthreads\ARM64\Debug\lib\libpthread.dll
